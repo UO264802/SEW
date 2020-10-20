@@ -3,7 +3,6 @@ body {
       font: 15px Optima, sans-serif; /*Familia sans-serif*/
       font-weight: 500;
       line-height: 1.8;
-      margin: 10px 40px 10px;
       color: black;
       background-color: rgb(250, 179, 158);
       text-align: justify;
@@ -12,6 +11,7 @@ body {
 
 /* Especificidad = 001 */  
 h1 {
+      margin: 10px 40px 10px;
       background-color:#897cad; 
       color: black;
       text-transform: uppercase;
@@ -21,40 +21,66 @@ h1 {
 
   /* Especificidad = 001 */
 h2 {
-  background-color: rgb(221, 159, 159);
-    color: rgba(40, 16, 128, 0.856);
-    font-weight: 600;
+  background-color:#897cad; 
+  color: black;
+  text-transform: uppercase;
+  padding:25px 50px 25px;
+  text-align: center;     
 }
 
   /* Especificidad = 001 */
 h3 {
   background-color: rgb(172, 169, 169);
     color: rgba(40, 16, 128, 0.856);
-    font-weight: 600;
+    padding:25px 50px 25px;
+
 }
 
   /* Especificidad = 001 */
 a{
   font: 17px Optima, sans-serif;
-  color:  rgba(40, 16, 128, 0.856);
-  background-color:rgb(250, 179, 158);
+  color:  white;
+  background-color: black;
+  
 }
 
   /* Especificidad = 001 */
 section {
+  margin: 10px 40px 10px;
   color: black;
   background-color: rgb(221, 159, 159);
-  border: 8px solid red;
+  border: 5px solid  rgb(255, 0, 0);
+  column-rule: 5px solid red;
 }
 
 /* Especificidad = 001 */
 footer {
-  color: rgb(66, 189, 172);
-  background-color: aquamarine;
+  margin: 10px 40px 10px;
+  color: rgb(0, 7, 6);
+  background-color: rgb(81, 209, 166);
 }
 
 article {
   text-justify: initial;
+}
+
+div {
+  margin: 10px 40px 10px;
+}
+
+nav{
+  color: white;
+  padding: 10px;
+  background-color: black;
+}
+
+p{
+  margin: 10px 40px 10px;
+}
+
+article{
+  padding: 5px 50px 50px 50px;
+  border: 5px solid  rgb(255, 0, 0);
 }
 
 
