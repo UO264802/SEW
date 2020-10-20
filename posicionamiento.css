@@ -5,14 +5,14 @@ section {
   margin-bottom: 90px;
   column-count: 2;
   column-gap: 3em;
-  padding: 5px 50px 50px 50px;
-  
+  padding: 30px 30px 30px 30px;
+  min-height: 300px;
 }
 
 /* Especificidad = 001 */
 img {
-  position: relative;
-  top: 20px;
+  max-width:100%;
+  height:auto;
 }
 
 /* Especificidad = 001 */
