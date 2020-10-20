@@ -4,7 +4,7 @@ body {
       font-weight: 500;
       line-height: 1.8;
       color: black;
-      background-color: rgb(250, 179, 158);
+      background-color:white;
       text-align: justify;
       
   }
@@ -48,7 +48,7 @@ a{
 section {
   margin: 10px 40px 10px;
   color: black;
-  background-color: rgb(221, 159, 159);
+  background-color: white;
   border: 5px solid  rgb(255, 0, 0);
   column-rule: 5px solid red;
 }
