@@ -67,6 +67,7 @@ nav{
 /* Especificidad = 001 */
 p{
   margin: 10px 40px 10px;
+  font: 17px Optima, sans-serif;
 }
 
 /* Especificidad = 001 */
