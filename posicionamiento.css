@@ -11,8 +11,8 @@ section {
 
 /* Especificidad = 001 */
 img {
-  max-width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Especificidad = 001 */
