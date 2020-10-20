@@ -53,6 +53,7 @@ footer{
   
 }
 
+/* Especificidad = 001 */
 video {
   margin: 20px 20px 20px 20px;
   position: relative;
@@ -60,6 +61,7 @@ video {
   top: 10px;
 }
 
+/* Especificidad = 001 */
 nav{
   position: absolute;
   left: 0;
