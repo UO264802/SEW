@@ -9,26 +9,32 @@ section {
   
 }
 
+/* Especificidad = 001 */
 img {
   position: relative;
   top: 20px;
 }
 
+/* Especificidad = 001 */
 a{
   padding: 10px;
   position: relative;
   top: 7px;
 }
 
+/* Especificidad = 001 */
 main{
   position: relative;
   top:80px;
 }
+
+/* Especificidad = 001 */
 h1 {
   position: relative;
   top: 65px;
 }
 
+/* Especificidad = 001 */
 div {
   display: flex;
   gap: 200px;
